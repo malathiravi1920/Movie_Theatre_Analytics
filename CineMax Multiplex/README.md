@@ -6,17 +6,17 @@ A specialized business intelligence and data analytics platform engineered to tr
 
 ![CineMax Multiplex Analytics Dashboard](./screenshot/dashboard.png)
 
+---
 
-
-##  Project Architecture
+## 📊 Project Architecture
 
 The core data models, logic files, or analytical assets for this project are securely managed within the primary application package:
 
 *   **`CineMax Multiplex/`:** The main project directory holding the core dataset matrices, workbook models, tracking assets, or operational configuration files customized for multiplex branch monitoring.
 
----]
+---
 
-##  Core Analytical Metrics Covered
+## 🔍 Core Analytical Metrics Covered
 
 The system transforms raw cinema transaction strings into high-value corporate performance insights:
 
@@ -27,22 +27,20 @@ The system transforms raw cinema transaction strings into high-value corporate p
 
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
 Follow these operational guidelines to review and interact with the analytics models on your local machine.
 
-###  Prerequisites
+### 📋 Prerequisites
 Depending on your project execution layer inside the `CineMax Multiplex` directory, make sure you have one of the following installed:
 *   **Microsoft Excel** (2019 or newer) if using relational pivot dashboards and interactive slicers.
 *   **Power BI Desktop** / **Tableau** if interacting with interactive visualization files.
 *   **Python 3.x** and analytical packages (`pandas`, `matplotlib`, `seaborn`) if utilizing programmatic scripts.
 
-###  Local Setup
+### 💻 Local Setup
 1. **Clone the Repository:**
    ```bash
-   git clone 
-
-
+   git clone https://github.com
    cd Movie_Theatre_Analytics
    ```
 2. **Access Project Files:**
@@ -50,5 +48,5 @@ Depending on your project execution layer inside the `CineMax Multiplex` directo
 
 ---
 
-##  License
+## 📄 License
 This repository is open-source and free to adapt for personal, portfolio, or educational purposes.
