@@ -4,7 +4,10 @@ A specialized business intelligence and data analytics platform engineered to tr
 
 ---
 
-![CineMax Multiplex Analytics Dashboard](./screenshot/dashboard.png)
+![CineMax Multiplex Analytics Dashboard](screenshot/dashboard.png)
+
+
+
 
 ---
 
