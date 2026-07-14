@@ -4,23 +4,15 @@ A specialized business intelligence and data analytics platform engineered to tr
 
 ---
 
-![CineMax Multiplex Analytics Dashboard](screenshot/dashboard.png)
-
----
-
-##  Project Architecture
+## 📊 Project Architecture
 
 The core data models, logic files, or analytical assets for this project are securely managed within the primary application package:
 
-* **`Movie-Theatre-Revenue-Analytics/`:** The main repository workspace directory.
-  * **`data/raw/`:** Staging home for original unedited Excel source tables.
-  * **`data/cleaned/`:** Processed target tables transformed through Power Query pipelines.
-  * **`powerbi/Movie_Theatre_Analytics.pbix`:** The primary interactive analytical reporting file.
-  * **`documentation/`:** Houses the Business Requirement Document (BRD) and operational metadata mapping.
+* **`CineMax Multiplex/`:** The main project directory holding the core dataset matrices, workbook models, tracking assets, or operational configuration files customized for multiplex branch monitoring.
 
 ---
 
-##  Core Analytical Metrics Covered
+## 🔍 Core Analytical Metrics Covered
 
 The system transforms raw cinema transaction strings into high-value corporate performance insights:
 
@@ -31,37 +23,36 @@ The system transforms raw cinema transaction strings into high-value corporate p
 
 ---
 
-##  Getting Started
+## 🚀 Getting Started
 
 Follow these operational guidelines to review and interact with the analytics models on your local machine.
 
-###  Prerequisites
+### 📋 Prerequisites
 
-Depending on your project execution layer inside the workspace directory, make sure you have the following installed:
+Depending on your project execution layer inside the `CineMax Multiplex` directory, make sure you have one of the following installed:
 
 * **Microsoft Power BI Desktop** (Latest Version) to run the primary interactive report workspace.
-* **Microsoft Excel** (2019 or newer) to view or audit the underlying dimension and fact staging tables.
+* **Microsoft Excel** (2019 or newer) if using relational pivot dashboards and interactive slicers.
 
-###  Local Setup
+### 💻 Local Setup
 
 1. **Clone the Repository:**
    ```bash
    git clone https://github.com
-   cd Movie-Theatre-Revenue-Analytics
+   cd Movie_Theatre_Analytics
    ```
 
 2. **Access Project Files:**
-   Open the `powerbi` folder and launch `Movie_Theatre_Analytics.pbix` using Power BI Desktop.
+   Open the `CineMax Multiplex` folder to access the source datasets, dashboards, or tracking charts.
 
 3. **Re-link Data Source Files (If Needed):**
    If path exceptions break the source links upon initial file launch:
    * Select **Home** > **Transform Data** > **Data source settings** from the ribbon workspace.
-   * Choose **Change Source** and redirect the target parameters to the local path of your spreadsheet files inside `data/raw/`.
+   * Choose **Change Source** and redirect the target parameters to the local path of your spreadsheet source files.
    * Click **Apply Changes** to refresh the dataset.
 
 ---
 
-##  License
+## 📄 License
 
 This repository is open-source and free to adapt for personal, portfolio, or educational purposes.
-
